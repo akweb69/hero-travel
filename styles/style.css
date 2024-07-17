@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+
+
+
+:root{
+    --main-font: "Mulish", sans-serif;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--main-font);
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
