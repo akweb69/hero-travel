@@ -1,0 +1,22 @@
+@media screen and (max-width: 1060px) {
+    .book-flight-search-box fieldset .fieldset-item{
+        padding: 0 0.3rem;
+    }
+    
+}
+@media screen and (max-width: 900px) {
+   
+.search-section {
+    width: 80%;
+    height: auto;
+}
+.book-flight-search-box{
+    grid-template-columns: 1fr;
+}
+.book-flight-search-box fieldset .fieldset-item{
+    padding: 0 1.3rem;
+  
+}
+
+
+}

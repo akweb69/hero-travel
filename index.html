@@ -4,17 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Travels</title>
-    
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/0fcba3577e.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Images/ethiopianairlines-svgrepo-com.png" type="image/x-icon">
+    <!-- css link  -->
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/responsive.css">
 
 </head>
 <body>
+    <div id="loader">
+    <img src="./Images/preloader.gif" alt="">
+    </div>
+    <!-- loader end -->
+    <header class="header">
+        <!-- navbar section start from here -->
+        <div class="nav-section">
+            <nav class="navbar-pc">
+                <!-- first -->
+                 <div class="nav-pc-left">
+                    <div class="nav-pc-left-btn-1"><i class="fa-solid fa-plane"></i><span> Find Flight</span></div>
+                    <div class="nav-pc-left-btn-1"><i class="fa-solid fa-car"></i><span> Find Stays</span></div>
+                 </div>
+                <!-- middle -->
+                <div class="nav-pc-title"> <i class="fa-solid fa-dove"></i> <span class="fly"><em>FLY</em></span><span class="nav-pc-middle-logo">Salman</span></div>
+                <!-- last -->
+                 <div class="nav-pc-right-btn">
+                    <div class="nav-btn">Login</div>
+                    <div class="nav-btn nav-btn-2">Sign Up</div>
+                 </div>
+            </nav>
+        </div>
+        <!-- search section  -->
+    <!-- search section  -->
+    <div class="search-section">
 
+        <div class="search-section-container">
+            <div class="search-title-chart">
+                <div class="search-chart-item"><i class="fa-solid fa-plane"></i> Book a flight</div>
+                <div class="search-chart-item"><i class="fa-solid fa-bed"></i> Book Hotel</div>
+                <div class="search-chart-item"><i class="fa-regular fa-calendar-check"></i> Manage/Check In</div>
+                <div class="search-chart-item"><i class="fa-solid fa-location-dot"></i> Flight Status</div>
+            </div>
+        </div>
+        <!-- book a flight -->
+         <div class="book-flight-content">
 
+            <div class="book-flight-radio-content">
+                <label for="return">
+                    <input type="radio" name="book-flight" id="return"> Return
+                </label>
+                <label for="one-way">
+                    <input type="radio" name="book-flight" id="one-way"> One way
+                </label>
+                <label for="multi-city">
+                    <input type="radio" name="book-flight" id="multi-city"> Multi-city
+                </label>
+            </div>
 
+            <!--  -->
+            <div class="book-flight-search-box">
+                <div class="book-flight-search-item">
+                    <fieldset>
+                        <legend>From - To</legend>
+                        <div class="fieldset-item">
+                            <p> Dhaka - Dubai</p>
+                            <i class="fa-solid fa-right-left"></i>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="book-flight-search-item">
+                    <fieldset>
+                        <legend>Trip</legend>
+                        <div class="fieldset-item">
+                            <p> Return</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="book-flight-search-item">
+                    <fieldset>
+                        <legend>Depart - Return</legend>
+                        <div class="fieldset-item">
+                            <p> 30 Jul 24 - 15 Aug 24</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="book-flight-search-item">
+                    <fieldset>
+                        <legend>Passenger - Class</legend>
+                        <div class="fieldset-item">
+                            <p> 01 passenger - Economy</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+         </div>
 
-
+    </div>
+    </header>
     
+    <!-- section -02 -->
+    <!-- section -02 -->
+     <div class="section-02">
+
+     </div>
+
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
