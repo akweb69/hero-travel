@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
 
 
 
@@ -7,6 +9,8 @@
 
 :root{
     --main-font: "Mulish", sans-serif;
+    --zain-font: "Playwrite AR", cursive;
+
 
 }
 
@@ -128,8 +132,39 @@ body{
 .nav-pc-right-btn .nav-btn-2{
     background-color: rgb(14, 14, 34);
 }
+/* navbar for mobile device */
+.nav-mobile{
+    width: 90%;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-mobile .nav-mobile-logo  .mobile-fly{
+    font-size: 2.5rem;
+    background-clip: text;
+    color: transparent;
+    font-family: var(--main-font);
+    font-weight: 800;
+    line-height: 2.3rem;
+    background-image: linear-gradient( #16a085,#9b59b6);
+    
+}
 
+.nav-mobile .nav-mobile-logo .salman-logo{
+    color: #d35400;
+    font-size: 1rem;
+    font-family: var(--zain-font);
+    font-weight: 600;
+}
 
+.nav-mobile-hamburger-menu i{
+    color: #d35400;
+    font-size: 2rem;
+    cursor: pointer;
+}
 /* search section */
 .search-section{
     position: absolute;

@@ -17,6 +17,68 @@
     padding: 0 1.3rem;
   
 }
+.search-title-chart .search-chart-item span{
+  font-size: .67rem;
+}
 
+
+}
+
+@media screen and (min-width: 700px){
+    .nav-mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    .nav-section{
+        display: none;
+    }
+    .nav-mobile{
+        display: flex;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+.header {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    background-image: url(/Images/air\ hostage-1.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.search-title-chart .search-chart-item span{
+    display: none;
+}
+.search-section {
+    bottom: 50px;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+    .book-flight-search-box fieldset .fieldset-item {
+        padding:0 .5rem;
+        font-size: 0.67rem;
+        font-weight: 600;
+        font-family: "Mulish";
+    }
+    .book-flight-search-box legend{
+        font-size: 0.67rem;
+        font-weight: 500;
+    }
+    .book-flight-search-box fieldset{
+        height: 3rem;
+        width: 100%;
+    }
+    
+.book-flight-content .book-flight-radio-content label {
+    font-size: 0.67rem;
+}
 
 }
