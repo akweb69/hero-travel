@@ -36,6 +36,15 @@
     .nav-mobile{
         display: flex;
     }
+    .search-section{
+        top: 30%;
+        left: 50%;
+        height: 450px;
+    }
+    .mobile-title-section{
+        display: block;
+    }
+
 
 }
 

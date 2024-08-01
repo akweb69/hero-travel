@@ -264,17 +264,18 @@ body{
 }
 .mobile-title-section{
     padding: 1.3rem;
+    display: none;
 }
 .mobile-title-section h1{
     color: #ebeeed;
     font-family: var(--main-font);
-    font-size: 1.7rem;
-    font-weight: 700;
+    font-size: 2.7rem;
+    font-weight: 900;
 }
 .mobile-title-section p{
     color: #666462;
     font-family: var(--main-font);
-    font-size: 1rem;
+    font-size: 1,3rem;
     font-weight: 600;
 }
 
