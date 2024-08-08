@@ -13,119 +13,52 @@
 
 </head>
 <body>
+    <!-- preloader -->
     <div id="loader">
-    <img src="./Images/preloader.gif" alt="">
+        <div class="loader-content-box">
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+            <div class="loader-item-box"></div>
+        </div>
     </div>
-    <!-- loader end -->
-    <header class="header">
-        <!-- navbar section start from here -->
-        <div class="nav-section">
-            <nav class="navbar-pc">
-                <!-- first -->
-                 <div class="nav-pc-left">
-                    <div class="nav-pc-left-btn-1"><i class="fa-solid fa-plane"></i><span> Find Flight</span></div>
-                    <div class="nav-pc-left-btn-1"><i class="fa-solid fa-car"></i><span> Find Stays</span></div>
-                 </div>
-                <!-- middle -->
-                <div class="nav-pc-title"> <i class="fa-solid fa-dove"></i> <span class="fly"><em>FLY</em></span><span class="nav-pc-middle-logo">Salman</span></div>
-                <!-- last -->
-                 <div class="nav-pc-right-btn">
-                    <div class="nav-btn">Login</div>
-                    <div class="nav-btn nav-btn-2">Sign Up</div>
-                 </div>
-            </nav>
-        </div>
-        <div class="nav-mobile">
-            <div class="nav-mobile-logo">
-                <span class="mobile-fly"><em>FLY</em></span><span class="salman-logo">Salman</span>
+    <!-- preloader -->
+    <!-- navigation-starts -->
+    <div class="nav-section-pc">
+        <nav class="nav-pc">
+            <div class="nav-logo">Ak <span>Travels</span></div>
+            <div class="nav-icon"><i id="barIcon" class="fa-solid fa-bars"></i> <i id="crossIcon" class="fa-solid fa-xmark"></i></div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Flight</a></li>
+                    <li><a href="#">Car</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
             </div>
-            <div class="nav-mobile-hamburger-menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </div>
-        <!-- mobile title section -->\
-         <div class="mobile-title-section">
-            <h1>Fly Your Dreams</h1>
-            <p><span>Your journey begins with a click.</span> - Highlights easy booking and travel planning.</p>
-         </div>
-        <!-- search section  -->
-    <!-- search section  -->
-    <div class="search-section">
-
-        <div class="search-section-container">
-            <div class="search-title-chart">
-                <div class="search-chart-item"><i class="fa-solid fa-plane"></i> <span>Book a flight</span></div>
-                <div class="search-chart-item"><i class="fa-solid fa-bed"></i> <span>Book Hotel</span></div>
-                <div class="search-chart-item"><i class="fa-regular fa-calendar-check"></i> <span>Manage/Check In</span></div>
-                <div class="search-chart-item"><i class="fa-solid fa-location-dot"></i> <span>Flight Status</span></div>
-            </div>
-        </div>
-        <!-- book a flight -->
-         <div class="book-flight-content">
-
-            <div class="book-flight-radio-content">
-                <label for="return">
-                    <input type="radio" name="book-flight" id="return"> Return
-                </label>
-                <label for="one-way">
-                    <input type="radio" name="book-flight" id="one-way"> One way
-                </label>
-                <label for="multi-city">
-                    <input type="radio" name="book-flight" id="multi-city"> Multi-city
-                </label>
-            </div>
-
-            <!--  -->
-            <div class="book-flight-search-box">
-                <div class="book-flight-search-item">
-                    <fieldset>
-                        <legend>From - To</legend>
-                        <div class="fieldset-item">
-                            <p> Dhaka - Dubai</p>
-                            <i class="fa-solid fa-right-left"></i>
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="book-flight-search-item">
-                    <fieldset>
-                        <legend>Trip</legend>
-                        <div class="fieldset-item">
-                            <p> Return</p>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="book-flight-search-item">
-                    <fieldset>
-                        <legend>Depart - Return</legend>
-                        <div class="fieldset-item">
-                            <p> 30 Jul 24 - 15 Aug 24</p>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="book-flight-search-item">
-                    <fieldset>
-                        <legend>Passenger - Class</legend>
-                        <div class="fieldset-item">
-                            <p> 01 passenger - Economy</p>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </div>
-                    </fieldset>
-                </div>
-            </div>
-         </div>
-
+        </nav>
     </div>
-    </header>
-    
-    <!-- section -02 -->
-    <!-- section -02 -->
-     <div class="section-02">
-
-     </div>
-
-
+    <div id="nav-link-mobile" class="nav-link-mobile">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Flight</a></li>
+            <li><a href="#">Car</a></li>
+            <li><a href="#">Hotel</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul>
+    </div>
+    <!-- navigation-ends -->
 
 
     <script src="script.js"></script>
