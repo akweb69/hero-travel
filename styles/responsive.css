@@ -5,4 +5,16 @@
     .nav-icon{
         display: block;
     }
+    .hero-details{
+        max-width: 90%;
+    }
+    .hero-search-container{
+        width: 90%;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    
+    .input-01 input{
+        width: 100%;
+    }
 }

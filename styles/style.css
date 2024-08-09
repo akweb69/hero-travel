@@ -91,7 +91,7 @@ body{
 /* nav section starts */
 .nav-section-pc{
     width: 100%;
-    background-color:#34495e;
+    background-color: #34495e;
 }
 .nav-pc{
     width: 90%;
@@ -105,8 +105,8 @@ body{
 .nav-pc .nav-logo{
     font-size: 2.4rem;
     font-weight: 800;
-    font-family: var(--ubuntu-font);
-    background: linear-gradient(to top left, #720e9e ,#FF00FF);
+    font-family: var(--play-font);
+    background: linear-gradient(to top left, #ff0000 ,#FF00FF);
     background-clip: text;
     color: transparent;
     cursor: pointer;
@@ -130,16 +130,18 @@ body{
     transition: all 300ms ease-in-out;
 }
 .nav-pc .nav-link ul li a:hover{
-    border-bottom: 1px solid #d35400;
-    color: #e67e22;
+    border-bottom: 1px solid rgb(255, 84, 0);
+    color: rgb(255, 84, 0);
+
 }
 .nav-pc .nav-link ul li:nth-last-child(1) a{
-    background-color: #d35400;
+    background-color: rgb(255, 84, 0);
     border-radius: 2px;
     
 }
 .nav-pc .nav-link ul li:nth-last-child(1) a:hover{
-    background-color: #e67e22;
+    background-color: rgb(212, 73, 3);
+    color: white;
 }
 .nav-icon{
     display: none;
@@ -176,6 +178,83 @@ body{
    
 }
 
-
-
 /* nav section ends */
+
+/* hero section starts */
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png) ,  linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%) ;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hero-title{
+    font-family: var(--ubuntu-font);
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+
+}
+.hero-details{
+    margin-top: 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    font-family: var(--play-font);
+    text-align: center;
+    max-width: 65%;
+    opacity: 0.7;
+}
+.hero-search-container{
+    height: 80px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.when , .type , .btn-search{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: rgba(19, 19, 24, 0.5);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-family: var(--ubuntu-font);
+
+}
+.btn-search{
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    background: rgb(255, 84, 0);
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+.btn-search:hover{
+    background-color: rgb(212, 73, 3);
+}
+.input-01 input{
+   padding: 1rem;
+   outline: none;
+   border: none;
+   color: rgba(19, 19, 24, 0.5);
+   border-radius: 0.5rem;
+   font-size: 1rem;
+   font-family: var(--ubuntu-font);
+}
+/* hero section ends */
