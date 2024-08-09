@@ -183,7 +183,7 @@ body{
 /* hero section starts */
 .hero-section{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 60px);
     background: url(../Images/Group\ 13\ \(1\)\ \(1\).png) ,  linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%) ;
     background-blend-mode: overlay;
     background-position: center;
@@ -258,3 +258,156 @@ body{
    font-family: var(--ubuntu-font);
 }
 /* hero section ends */
+
+/* our popular tour section starts here */
+.our-popular-section{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 5rem;
+    height: 450px;
+    /* border: 1px solid red; */
+    
+}
+
+.our-popular-section-part-2 img{
+    width: 100%;
+    height: 430px;
+}
+.ops-part-1-title{
+    font-size: 3rem;
+    font-family: var(--ubuntu-font);
+    font-weight: 800;
+    color: rgb(19, 19, 24);
+}
+.ops-part-1-details{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-family: var(--play-font);
+    margin-top: 1.2rem;
+}
+.ops-part-1-details ul{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.ops-part-1-details ul li{
+    margin-top: 1rem;
+}
+.opsp-2-last-p{
+    margin-top: 1rem;
+}
+.read-more-btn button{
+    color: white;
+    border: none;
+    background-color: rgb(255, 84, 0);
+    padding: 0.67rem 1.2rem;
+    font-size: 1rem;
+    font-family: var(--ubuntu-font);
+    font-weight: 400;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+/* our popular tour section ends here */
+
+/* choose your destination section  starts here*/
+.choose-your-destination-section{
+   
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    /* border: 1px solid red; */
+
+}
+.c-y-d-title{
+    font-family: var(--ubuntu-font);
+    color: rgb(19, 19, 24);
+    font-size:2.5rem ;
+    font-weight: 800 ;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.c-y-d-details{
+    font-family: var(--ubuntu-font);
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.c-y-d-gallery{
+    display: grid;
+    gap: 1rem;
+    margin-top: 3rem;
+    grid-template-areas: 
+                        "a a a a a a b b b b b b" 
+                        "c c c c d d d d d e e e" 
+                        "f f f f f g g g g g g g";
+
+}
+.c-y-d-g-box {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: var(--ubuntu-font);
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+.c-y-d-g-box p{
+    font-size: 1.5rem;
+}
+.c-y-d-g-box-1{
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: a;
+}
+.c-y-d-g-box-2{
+    background-image: url(../Images/Rectangle\ 8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: b;
+}
+.c-y-d-g-box-3{
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: c;
+}
+.c-y-d-g-box-4{
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: d;
+}
+.c-y-d-g-box-5{
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: e;
+}
+.c-y-d-g-box-6{
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: f;
+}
+.c-y-d-g-box-7{
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: g;
+}
+/* choose your destination section  ends here*/

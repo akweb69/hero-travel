@@ -17,4 +17,34 @@
     .input-01 input{
         width: 100%;
     }
+    .our-popular-section{
+        grid-template-columns: 1fr;
+        height: 100%;
+        gap: 2rem;
+    }
+    .ops-part-1-title{
+        text-align: center;
+    }
+    .our-popular-section-part-2 img{
+        height: auto;
+    }
+    .our-popular-section{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .c-y-d-gallery{
+        gap: 1.5rem;
+        grid-template-areas: 
+                            "a" 
+                            "b" 
+                            "c"
+                            "d"
+                            "e"
+                            "f"
+                            "g";
+    
+    }
+    .c-y-d-details{
+        max-width: 90%;
+    }
 }
