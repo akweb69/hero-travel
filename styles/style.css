@@ -411,3 +411,73 @@ body{
     grid-area: g;
 }
 /* choose your destination section  ends here*/
+
+/* why section starts */
+    .why-section{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    .why-title{
+        font-size: 2.5rem;
+        color: rgb(19, 19, 24);
+        font-family: var(--ubuntu-font);
+        font-weight: 700;
+        text-align: center;
+
+    }
+    .why-description{
+        font-size: 1rem;
+        font-family: var(--ubuntu-font);
+        color: rgba(19, 19, 24, 0.7);
+        text-align: center;
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+    }
+    .why-card-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 1rem;
+        justify-content: center;
+      
+        
+    }
+
+    .why-card{
+        height: 100%;
+        border-radius: 1rem;
+        padding: 1.5rem;
+        
+    }
+    .why-card  h3{
+        color: rgb(19, 19, 24);
+        font-family: var(--ubuntu-font);
+        font-weight: 800;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+
+    }
+    .why-card p{
+        color: rgba(19, 19, 24, 0.7);
+        font-family: var(--ubuntu-font);
+        font-size: 1rem;
+    }
+    .why-card-1{
+        background-color:  rgba(251, 181, 99, 0.05);
+        border: 1px solid rgba(251, 181, 99, 0.2);
+    }
+    .why-card-2{
+        background: rgba(41, 206, 246, 0.05);
+        border: 1px solid rgba(41, 206, 246, 0.2);
+    }
+    .why-card-3{
+        background-color: rgba(233, 68, 68, 0.05);
+        border: 1px solid rgba(233, 68, 68, 0.2);
+       
+    }
+/* why section ends */
+
