@@ -56,8 +56,29 @@
   .why-card{
     height: 100%;
   }
+  .deals-box-01{
+    align-items: flex-end;
+    height: 700px;
+  }
+  .deal-section p{
+    max-width: 85%;
+  }
 
 
 
+
+}
+@media screen and (max-width: 500px) {
+  .deals-icon-box{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .deals-box-01{
+    padding: 1rem;
+  }
+  .deals-semibox{
+    padding: 2rem;
+  }
 
 }

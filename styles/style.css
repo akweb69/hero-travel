@@ -8,6 +8,7 @@
    --play-font: "Play", sans-serif;
    --ubuntu-font: "Ubuntu", sans-serif;
    --bar-code : "Libre Barcode 128 Text", system-ui;
+   --primary-color : rgb(255, 84, 0);
    
 
 }
@@ -481,3 +482,115 @@ body{
     }
 /* why section ends */
 
+/* deal section starts */
+.deal-section{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.deal-section h1{
+    font-size: 2.5rem;
+    color: rgb(19, 19, 24);
+    font-family: var(--ubuntu-font);
+    font-weight: 700;
+    text-align: center;
+}
+.deal-section p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-family: var(--play-font);
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.deals-box-01{
+    width: 100%;
+    height: 450px;
+    background-image: url(../Images/Group\ 39.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 2rem;
+}
+.deals-semibox{
+    width: 580px;
+    padding: 1.5rem;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: inherit;
+}
+.deals-icon-box{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.deals-icon-box span{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-family: var(--ubuntu-font);
+}
+.deals-icon-box i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    margin-right: 0.25rem;
+    
+}
+.deals-title{
+    color: rgb(19, 19, 24);
+    font-family: var(--ubuntu-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+.deals-details{
+    color: rgba(19, 19, 24, 0.7);
+    font-family: var(--ubuntu-font);
+    font-size: 1rem;
+
+}
+.deals-price{
+    color: var(--primary-color);
+    font-family: var(--ubuntu-font);
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+}
+.deal-section button{
+    padding:  1rem;
+    color: white;
+    font-family: var(--ubuntu-font);
+    font-weight: 700;
+    background-color: var(--primary-color);
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.deals-box-02{
+    background-image: url(../Images/Group\ 40.png);
+    justify-content: flex-start;
+}
+.see-all-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+.see-all-btn span{
+    color: white;
+    font-size: 1rem;
+    font-family: var(--ubuntu-font);
+    padding: 0.67rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    background: var(--primary-color);
+}
+/* deal section ends */
